@@ -3,7 +3,7 @@ This is an app that keeps track of records in a Google Spreadsheet and emails th
 
 In this repo I'm only sharing the script, since that's the important part, but there are a couple of other things that need to be setup in order for this to work. I explain that in the Instructions section.
 
-___Note: I made this app to help someone out, but figured I'd share it on GitHub, for whoever it helps.___
+___Note: I made this app to help someone out, but figured I'd share it on GitHub, for whoever it helps. Also I did not make this app with performance in mind since in my case the code only run once a day.___
 
 # Overview
 How this app works is, user creates a record containing various details of a document. These details include:
@@ -43,4 +43,3 @@ As mentioned above, this is how I would suggest setting up the app because this 
     - Function to run: OnOpenTrigg
     - Event Source: From spreadsheet
     - Event Type: On open
-
